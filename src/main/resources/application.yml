@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    host: mysql
+    port: 3306
+    database: demo
+    url: jdbc:mysql://${spring.datasource.host}:${spring.datasource.port}/${spring.datasource.database}
+    username: root
+    password: password
+  jpa.hibernate.ddl-auto: update
