@@ -35,7 +35,7 @@ REST API's:
    
  2. Get User
  
-    GET http://localhost:8080/user/<id>
+    GET http://localhost:8080/user/\<id\>
     
  3. Get All users
  
